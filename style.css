@@ -1,0 +1,47 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    color: white;
+}
+.button{
+    width: 100px;
+    height: 100px;
+}
+.main{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    background-color: #416c9e;
+    border-radius: 5%;
+}
+.buttons{
+    display: grid;
+    max-width: 500px;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.button:hover{
+    cursor: pointer;
+    width: 95px;
+    height: 95px;
+}
+.rodrigo{
+    position: absolute;
+    top: 394px;
+    width: 300px;
+}
+
+@media (max-width: 1150px){
+  .rodrigo{
+    display: none;
+  }
+}
+
+
